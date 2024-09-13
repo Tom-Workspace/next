@@ -1,16 +1,11 @@
 'use client'
-import React from 'react';
-import Tom from './components/test';
-import { Ahmed } from './context';
+import React from 'react'
+import Tom from './components/test'
 
-function Page() {
+const page = () => {
   return (
-    <div>
-      <Ahmed.Provider value="tom">
-        <Tom />
-      </Ahmed.Provider>
-    </div>
-  );
+    <div><Tom /></div>
+  )
 }
 
-export default Page;
+export default page

@@ -1,6 +1,5 @@
 'use client'
 import React, { useContext, useEffect, useMemo, useReducer, useRef, useState } from 'react'
-import { Ahmed } from './context';
 import axios from 'axios'
 
 const Tom = () => {
@@ -8,7 +7,6 @@ const Tom = () => {
     let [R, setR] = useState(0)
     let reef = useRef(null)
     let rand = "#" + ((1 << 24) * Math.random() | 0).toString(16).padStart(6, "0")
-    let data = useContext(Ahmed)
 
     let h = useMemo(() => {
         return (
