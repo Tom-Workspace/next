@@ -1,8 +1,7 @@
 'use client'
-import React, { createContext } from 'react'
-import Tom from './components/test'
-
-export const Ahmed = createContext();
+import React from 'react';
+import Tom from './components/test';
+import { Ahmed } from './context';
 
 function Page() {
   return (
@@ -11,7 +10,7 @@ function Page() {
         <Tom />
       </Ahmed.Provider>
     </div>
-  )
+  );
 }
 
 export default Page;

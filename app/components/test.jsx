@@ -1,6 +1,6 @@
 'use client'
 import React, { useContext, useEffect, useMemo, useReducer, useRef, useState } from 'react'
-import { Ahmed } from '../page'
+import { Ahmed } from './context';
 import axios from 'axios'
 
 const Tom = () => {
